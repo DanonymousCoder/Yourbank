@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 30px;
+    background-color: #000;
 }
 
 a {
@@ -28,16 +29,59 @@ nav {
     height: 55px;
     top: 50px;
     left: 162px;
-    padding: 20px 34px 20px 34px;
+    padding: 30px 34px;
     gap: 0px;
     border-radius: 100px;
     border: 1px solid #262626;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     color: #1C1C1C;
 }
 
 nav ul {
     display: flex;
-    gap: 5px;
+    gap: .5rem;
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+nav ul li a:focus {
+    background-color: #262626;
+    width: 100px;
+    height: 51px;
+    padding: 12px 24px 12px 24px;
+    gap: 10px;
+    border-radius: 82px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    border: none;
+    background: transparent;
+    color: #FFFFFF;
+}
+
+.have-bg {
+    background-color: #CAFF33;
+    color: #1C1C1C;
+    width: 99px;
+    height: 40px;
+    padding: 14px 30px 14px 30px;
+    gap: 10px;
+    border-radius: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
