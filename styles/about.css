@@ -45,3 +45,58 @@ body{
   .welcome-text-bg-col {   
     background-color: #1A1A1A; 
   } 
+
+  .welcome-text {   
+    border-radius: 10px 10px 80px 10px;   
+    position: relative;   
+    left: 12rem;   
+    height: 530px;   
+    width: 100%; 
+  }  
+  .welcome-image {   
+    width: 800px;
+  }
+  
+    
+    
+   /* Footer */
+   footer {
+    background: #1C1C1C !important;
+   }
+  .footer-link {
+    color: white;
+    text-decoration: none;
+    border-radius: 82px;
+    padding: 5px 15px !important;
+  }
+  .footer-link:hover{
+    color: white;
+    background-color: #262626;
+  }
+  .line {
+    border-right: 1px solid #B3B3B3;
+  }
+  .line-text-col {
+    color: #B3B3B3;
+  }
+  @media  (min-width: 320px) and (max-width: 430px) {
+    .welcome-image {   
+      width: 100%;
+    }
+    
+    .welcome {
+      width: 100%;
+    }
+    .welcome-text {
+      border-radius: 10px 10px 10px 10px;
+      position: relative;
+      left: 0rem;
+      bottom: 1.5rem;
+      height: 430px;
+      width: 100%;
+    }
+    .social {
+      position: relative;
+      bottom: 1.5rem;
+    }
+  }
