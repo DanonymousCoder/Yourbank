@@ -262,3 +262,51 @@ button {
     border-color: #262626 !important;
     border-bottom-style: dashed !important;
   }
+
+  /* end of section-2 */
+
+/* Section-3 */
+.box-btnl{
+    background-color: #262626; 
+  }
+  .btn-role{
+    color: white;
+    border-color: #1C1C1C !important;
+    border:1px solid; 
+  }
+  .btn-role:hover{
+    color: #CAFF33;
+    background-color: #1A1A1A;
+    font-family: 'Lexend', sans-serif;
+  }
+  /* end of section-3 */
+  
+  /* Section-5 */
+  #bold{
+    background-color: #1A1A1A;
+    color: white;
+  }
+  
+  .c{
+  color: #CAFF33;
+  }
+  .b {
+  background-color: #CAFF33 !important;
+  }
+  
+  .selection{
+  background-color: #1C1C1C;
+  border: 1px solid #262626;
+  padding: 12px;
+  height: 75px;
+  }
+  .slash::before{
+  content: "";
+  display: block;
+  width: 90px;
+  height: 0.11px;
+  background: #262626;
+  position: absolute;
+  left: 11%;
+  top: 12%;
+  }
