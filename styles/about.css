@@ -1,0 +1,47 @@
+body{
+    background: #1A1A1A !important;
+   }
+  
+  /* General-selector-text-color */
+  .box-body {   
+    background-color: #262626 ; 
+  } 
+  .text-b-main {   
+    color: #CAFF33; 
+  } 
+  
+  /* Navbar */
+  .navbar {
+    border: 1px solid #262626;
+    background-color: #1A1A1A;
+  }
+  .border-btn-col{
+    background-color: #CAFF33 !important;
+  }
+  .nav-link {
+    color: white !important;
+    border-radius: 82px;
+    padding: 5px 15px !important;
+  }
+  .nav-link:hover{
+    color: white;
+    background-color: #262626;
+  }
+  
+  .login:hover, 
+  .signup:hover{
+    color: black !important;
+    background-color: #CAFF33 !important;
+  }
+  /* End of Navbar */
+  
+  /* Welcome Section */
+  .welcome {
+    width: 100%;
+  }
+  .welcome-section-bg-col {   
+    background-color: #1C1C1C; 
+  } 
+  .welcome-text-bg-col {   
+    background-color: #1A1A1A; 
+  } 
