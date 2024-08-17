@@ -6,5 +6,7 @@
 ### Preview
 ![image](https://github.com/user-attachments/assets/550f41f0-8345-465b-b67f-4fdb00c43e5b)
 
+### Design link https://www.figma.com/design/2mNu0tqfqzFN9N6QV0cvGa/YourBank---Bank-Website-Dark-Theme-%7C-Produce-UI-(Community)?node-id=49-25&t=Or3AnfYQafu6NulM-0
+
 
 ### Visit at https://danonymouscoder.github.io/Yourbank/
