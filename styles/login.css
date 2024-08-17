@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+}
+
+body{
+    background: #1A1A1A !important;
+    color: aliceblue;
+}
+
+/* 
+ *  login section
+ */
+ 
+.log-into{
+    background-blend-mode: overlay, normal;
+    background-color: #000000ea;
+    width: 80%;
+    margin: auto;
+    padding: 30px 40px;
+}
+
+#bold{
+    background-color: #1A1A1A;
+    color: white;
+}
+   
+.c{
+   color: #CAFF33;
+}
+
+.b {
+   background-color: #CAFF33 !important;
+}
+   
+.selection {
+   background-color: #1C1C1C;
+   border: 1px solid #262626;
+   padding: 12px;
+   height: 75px;
+}
+
+.slash::before,
+.slash::after  {
+   content: "";
+   display: block;
+   width: 90px;
+   height: 0.11px;
+   background: #262626;
+   position: absolute;
+   left: 11%;
+   top: 12%;
+}
+   
+.swiper-slide {
+height: 350px !important;
+}
+   
